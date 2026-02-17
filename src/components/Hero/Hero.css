@@ -1,0 +1,62 @@
+.hero {
+  background-color: #F9FAFB;
+  padding: 4rem 2rem;
+}
+
+.hero-conteiner {
+  max-width: 1100px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+
+.hero-conteiner h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+  color: #111827;
+}
+
+.hero-conteiner p {
+  font-size: 1rem;
+  color: #6B7280;
+  max-width: 500px;
+}
+
+
+.botao {
+  display: inline-block;
+  width: fit-content;
+
+  background-color: #7C3AED;
+  color: white;
+  text-decoration: none;
+
+  padding: 0.9rem 1.5rem;
+  border-radius: 8px;
+
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.botao:hover {
+  background-color: #6D28D9;
+  transform: translateY(-2px);
+}
+@media (min-width: 768px) {
+  .hero {
+    padding: 6rem 2rem;
+  }
+
+  .hero-conteiner {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .hero-conteiner h1 {
+    font-size: 3rem;
+  }
+}

@@ -1,0 +1,91 @@
+.Ebook {
+  background-color: #7C3AED;
+  padding: 3rem 2rem;
+  border-radius: 50px 50px 0 0;
+  color: white;
+}
+.Ebook   h2{
+  padding: 1rem;
+}
+
+
+.Ebook p {
+  text-align: center;
+
+}
+
+
+.ebook-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.Ebook-submit-email {
+  display: flex;
+  gap: 0.8rem;
+}
+
+
+.Ebook-submit-email input {
+  border: none;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  flex: 1;
+  outline: none;
+}
+
+
+.Ebook-button {
+  border: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 8px;
+  background-color: white;
+  color: #7C3AED;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.Ebook-button:hover {
+  background-color: #F3F4F6;
+}
+
+.Ebook-img {
+    display: block;
+  margin: 0 auto;
+  width: 220px;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+.mentora {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 20px;
+  display: inline-block;
+}
+.block{
+  display: none;
+}
+@media (min-width: 768px) {
+  .Ebook h2{
+    text-align: center;
+  }
+  .Ebook-img {
+    width: 70%;
+    height: 100%;  
+    
+  }  .mentora{
+    display: flex;
+    flex-direction: row;
+  }
+  .block{
+  display: block;
+
+  }
+  
+}
+
+
+

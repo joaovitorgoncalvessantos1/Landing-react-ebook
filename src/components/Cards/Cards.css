@@ -1,0 +1,43 @@
+.Card {
+  background-color: #e5e7eb;
+  padding: 3rem;
+}
+.Card_subtitulo {
+  text-align: center;
+  padding: 10px;
+  color: #111827;
+  font-weight: 600;
+}
+.Card_paragrafo {
+  text-align: center;
+  padding: 15px;
+}
+.Card_conteiner {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.Cards {
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+}
+.Cards h3 {
+  color: #7C3AED;
+  padding: 1rem 0;
+  text-align: center;
+}
+.Cards p{
+  text-align: center;
+  font-weight: 400;
+  font-size: medium;
+}
+
+@media (max-width: 768px) {
+  .Card_conteiner{
+    flex-direction: column;
+    margin: 0 auto;
+  }
+}

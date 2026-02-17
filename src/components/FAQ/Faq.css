@@ -1,0 +1,71 @@
+
+.Faq {
+  padding: 4rem 2rem;
+  background-color: #F9FAFB;
+}
+
+
+.Faq h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #111827;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+
+.Faq_subtitulo {
+  text-align: center;
+  color: #6B7280;
+  margin-bottom: 3rem;
+}
+.Faq_Conteiner {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.Faq_card {
+  background-color: #FFFFFF;
+  padding: 1.5rem 2rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.Faq_card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+
+.Faq_card h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+ color: #7C3AED;
+  margin-bottom: 0.8rem;
+}
+
+
+.Faq_card p {
+  font-size: 0.95rem;
+  color: #6B7280;
+  line-height: 1.6;
+}
+
+
+@media (min-width: 1024px) {
+  .Faq_card {
+    padding: 2rem 2.5rem;
+  }
+
+  .Faq_card h3 {
+    font-size: 1.2rem;
+  }
+
+  .Faq_card p {
+    font-size: 1rem;
+  }
+}
