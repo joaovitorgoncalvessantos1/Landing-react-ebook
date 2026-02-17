@@ -1,0 +1,43 @@
+.Rodape{
+    background-color: #0F172A;
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    border-radius: 20px 20px 0 0;
+}
+.Rodape h3,p,li{
+    color: #F9FAFB;
+    
+}
+.Conteiner_informacoes{
+    padding: 0 2rem;
+}
+.Conteiner_informacoes h3{
+    text-align: center;
+   font-size: 25px;
+   margin-bottom: 10px;
+}
+.Conteiner_informacoes_paragrafo{
+    text-align: center;
+}
+.Conteiner__span{
+    color: #A855F7;
+}
+.Conteiner_navegacao,.conteiner_recursos {
+    padding:10px 2rem;
+}
+
+.Conteiner_navegacao ul,.conteiner_recursos ul{
+    list-style-type: none;
+    
+}
+.Conteiner_navegacao ul li ,.conteiner_recursos ul li{
+    padding-top: 10px;
+}
+
+@media (min-width: 1024px)
+{
+    .Rodape{
+        flex-direction: row;
+    }
+}
