@@ -1,6 +1,6 @@
 import "./Ebook.css";
-import mentora from "../../assets/mentora.png";
-import ebookMockup from "../../assets/ebookMockup.png";
+import mentora from "../../assets/mentora.webp";
+import ebookMockup from "../../assets/ebookMockup.webp";
 
 function Ebook() {
   return (
